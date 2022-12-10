@@ -1,16 +1,19 @@
-* {
-    background-color: rgb(250, 233, 252);
+body {
+    background: rgb(165,5,187);
+    background: linear-gradient(90deg, rgba(165,5,187,1) 12%, rgba(171,85,193,1) 48%, rgba(94,37,117,1) 67%, rgba(125,0,255,1) 100%);
 }
 
 .header {
     text-align: center;
     font-family: Montserrat, sans-serif;
     font-size: 35px;
+    color: white;
 }
 
 .header:hover {
     font-size: 36px;
     transition-duration: 0.1s;
+    color: rgb(255, 244, 244);
 }
 
 .banner-img {
@@ -34,14 +37,14 @@ li {
 
 a {
     text-decoration: none;
-    color: rgb(75, 0, 75);
+    color: rgb(245, 245, 245);
     font-weight: bold;
     font-family: Montserrat, sans-serif;
     font-size: 25px;
 }
 
 a:hover {
-    color: red;
+    color: rgb(106, 250, 255);
     font-size: 26px;
     padding-left: 5px;
     transition-duration: 0.15s;
