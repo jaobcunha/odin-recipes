@@ -1,0 +1,13 @@
+.banner-img {
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+* {
+    background-color: red;
+}
+
+h1, h3, p, li {
+    color: rgb(253, 238, 173);
+}

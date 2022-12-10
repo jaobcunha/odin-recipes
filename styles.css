@@ -3,11 +3,41 @@ body {
     background: linear-gradient(90deg, rgba(165,5,187,1) 12%, rgba(171,85,193,1) 48%, rgba(94,37,117,1) 67%, rgba(125,0,255,1) 100%);
 }
 
+.welcome {
+    background: rgb(165,5,187);
+    background: linear-gradient(90deg, rgba(165,5,187,1) 12%, rgba(171,85,193,1) 48%, rgba(94,37,117,1) 67%, rgba(125,0,255,0.1678321678321678) 100%);
+}
+
 .header {
     text-align: center;
     font-family: Montserrat, sans-serif;
     font-size: 35px;
     color: white;
+}
+
+#info-header {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-top: 15px;
+}
+
+#recipes-header {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-left: 35px;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.text {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-left: 35px;
+    font-weight: 700;
 }
 
 .header:hover {
